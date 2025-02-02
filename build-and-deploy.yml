@@ -15,9 +15,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
           
-      - name: 拉取最新代码
+      - name: 
         run: |
-          echo "拉取远程最新代码"
+          echo "fetch latest remote code"
           git fetch origin
           git reset --hard origin/main
 
